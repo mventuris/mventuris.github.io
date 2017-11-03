@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="general.css">
+    </head>
+    <body>
+      <div class="full-page-wrap">
+        <div class="full-page">
+          <div class="left up text-wrapper text-center">
+            <div class="top-text">
+              <h2>
+                sample text
+              </h2>
+            </div>
+            <div class="bottom-text">
+              <h4 class="text-grey subtitle-size">
+                sample sub text
+              </h4>
+            </div>
+          </div>
+
+          <div class="right down">
+            <div class="video-container" id="videoContainer">
+              <div class="video-overlay">
+                <div onclick="onPlay()" class="play-button" id="button-4-play" #playButton>
+                  <svg
+                    viewBox="0 0 44 44"
+                    version="1.1"
+                    style="display: block; width: 100%; height: 100%; object-fit: cover;"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <title>Group 5</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="UPDATED_17_OKT_awl_landing_page_full-copy" transform="translate(-166.000000, -1815.000000)">
+                              <g id="Group-6" transform="translate(0.000000, 1670.000000)">
+                                  <g id="Group-5" transform="translate(166.000000, 145.000000)">
+                                      <circle id="Oval" fill="#131313" cx="22" cy="22" r="22"></circle>
+                                      <polygon id="Path-3" fill="#EBEBEB" points="16.8148148 14.5925926 16.8148148 29.8427681 30.1481481 22.2176803"></polygon>
+                                  </g>
+                              </g>
+                          </g>
+                      </g>
+                  </svg>
+                </div>
+                <!-- enter full screen for mobile devices button -->
+                <div onclick="onFullScreen()" class="fs-button">
+                  <svg
+                    style="display: block; width: 100%; height: 100%; object-fit: cover;"
+                    viewBox="0 0 18 18"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <title>Shape</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs></defs>
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                          <g id="UPDATED_17_OKT_awl_landing_page_full-copy" transform="translate(-341.000000, -1969.000000)" fill-rule="nonzero" fill="#B4B4B4">
+                              <g id="Group-6" transform="translate(0.000000, 1670.000000)">
+                                  <path d="M341.44582,299.195044 L341.44582,299.585137 L341.44582,303.876159 L342.226006,303.876159 L342.226006,300.523798 L347.803105,306.100907 L348.351693,305.546244 L342.78066,299.97523 L346.126935,299.97523 L346.126935,299.195044 L341.835913,299.195044 L341.44582,299.195044 Z M354.318885,299.195044 L354.318885,299.97523 L357.665161,299.97523 L352.094127,305.546244 L352.642715,306.100907 L358.219814,300.523798 L358.219814,303.876159 L359,303.876159 L359,299.585137 L359,299.195044 L358.609907,299.195044 L354.318885,299.195044 Z M347.803105,309.837272 L342.226006,315.414371 L342.226006,312.068115 L341.44582,312.068115 L341.44582,316.359137 L341.44582,316.74923 L341.835913,316.74923 L346.126935,316.74923 L346.126935,315.969044 L342.774574,315.969044 L348.351693,310.391925 L347.803105,309.837272 Z M352.642715,309.837272 L352.094127,310.391925 L357.671246,315.969044 L354.318885,315.969044 L354.318885,316.74923 L358.609907,316.74923 L359,316.74923 L359,316.359137 L359,312.068115 L358.219814,312.068115 L358.219814,315.414371 L352.642715,309.837272 L352.642715,309.837272 Z" id="Shape"></path>
+                              </g>
+                          </g>
+                      </g>
+                  </svg>
+                </div>
+              </div>
+<video
+preload="none"
+loop
+playsinline
+poster="https://res.cloudinary.com/demo/video/upload/dog.jpg"
+id='videoPlayer'>
+  <source type="video/mp4" src="https://res.cloudinary.com/demo/video/upload/dog.mp4">
+</video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script src="general.js"></script>
+    </body>
+</html>

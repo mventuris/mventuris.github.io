@@ -1,0 +1,164 @@
+.play-button {
+  grid-row: 5 / span 2;
+  grid-column: 5 / span 2;
+}
+.fs-button {
+  grid-row: 10;
+  grid-column: 10;
+  height: 70%;
+  width: 70%;
+}
+.video-container {
+  width: 100%;
+  height: 100%;
+}
+.video-overlay {
+  display: grid;
+  grid-auto-rows: 10%;
+  grid-auto-columns: 10%;
+  justify-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  position: absolute;
+  z-index: 10;
+}
+video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1px;
+  position: absolute;
+}
+::-webkit-media-controls,
+::-webkit-media-controls-panel,
+::-webkit-media-controls-start-playback-button {
+    display: none !important;
+}
+
+
+  h2 {
+    margin: 0;
+    font-size: 6vh;
+    line-height: 1;
+  }
+
+  h4 {
+    font-size: 2vh;
+    margin: 0;
+  }
+
+
+
+  .subtitle-size {
+    font-size: 2vh;
+  }
+
+  .text-grey {
+    color: $color-grey;
+  }
+
+
+    .full-page {
+      display: grid;
+      grid-auto-columns: 50vw;
+      grid-auto-rows: 100vh;
+    }
+
+    .full-page > div {
+      position: relative;
+    }
+
+  .left {
+    grid-column: 1;
+  }
+
+  .right {
+    grid-column: 2;
+  }
+
+  .up, .down {
+    grid-row: 1;
+  }
+
+
+  .last-page>.left, .last-page>.right {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .text-wrapper {
+    display: grid;
+    grid-auto-rows: 10%;
+  }
+
+  .row1 {
+    grid-row: 1;
+  }
+  .top-text {
+    grid-row: 2 / span 2;
+  }
+  .first-text>.top-text {
+    grid-row: 4 / span 2;
+    align-self: end;
+  }
+  .row5 {
+    grid-row: 5;
+  }
+  .bottom-text {
+    grid-row: 6 / span 4;
+    align-self: end;
+  }
+  .first-text>.bottom-text {
+    grid-row: 6;
+    align-self: center;
+  }
+  .row10 {
+    grid-row: 10;
+    //align-self: end;
+  }
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+    .full-page-wrap {
+      display: block;
+      height: 100vh;
+
+
+    }
+
+    .full-page {
+      grid-auto-columns: 100vw;
+      grid-auto-rows: 50vh;
+
+    }
+
+    .left, .right {
+      grid-column: 1;
+    }
+
+    .up {
+      grid-row: 1;
+    }
+
+    .down {
+      grid-row: 2;
+    }
+
+    .side-grey-border.left, .side-grey-border.right {
+      border-left: 0;
+      border-right: 0;
+    }
+
+
+    h2 {
+      font-size: 10vw;
+    }
+
+    .subtitle-size {
+      font-size: 3vw;
+    }
